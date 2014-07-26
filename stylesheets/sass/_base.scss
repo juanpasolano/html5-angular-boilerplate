@@ -1,0 +1,71 @@
+body{
+  background: #F8F8F8;
+}
+html{
+  font-size: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: $ff-main;
+  -webkit-font-smoothing: antialiased;
+}
+
+//Header styles
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 0 1rem;
+    color: $text-gray-dark;
+    &.underlined{
+      border-bottom: 1px solid $border-gray;
+      font-weight: $fw-bold - 200;
+    }
+  }
+}
+
+a{
+  text-decoration: none;
+  color:$link-color;
+}
+
+p{
+  color: $text-gray;
+}
+
+hr{
+  border-color: $border-gray;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  li{
+    list-style: none;
+  }
+}
+
+#{$all-text-inputs},
+textarea,
+select{
+  background: white;
+  border: 1px solid $border-gray;
+  border-radius: 3px;
+  padding: .5rem .5rem;
+  -webkit-appearance: none;
+  @include transition(all .4s $ease-out-quad);
+  color: $text-gray-dark;
+  &:focus{
+    outline: none;
+    border: 1px solid darken($border-gray, 20%);
+  }
+}
+
+select{
+  background: white url(../../img/select-chevron.png) no-repeat 98.5% 53%;
+}
+
+

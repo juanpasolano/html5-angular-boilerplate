@@ -1,0 +1,84 @@
+$btn-shadow: 2px;
+$btn-shadow-hover:3px;
+
+@mixin btn-hover($color){
+  &:hover{
+    @include box-shadow(0 $btn-shadow-hover 0 0 $color);
+    top: ($btn-shadow - 1) * -1;
+  }
+  &:active{
+    @include box-shadow(0 0 0 0 $color);
+    top: $btn-shadow;
+  }
+}
+
+.btn{
+  @include border-radius();
+  padding: .6rem 1rem;
+  margin: 0 .1em rem(2);
+  display: inline-block;
+  border: none;
+  position: relative;
+
+  //default color
+  color: $text-gray;
+  background: $btn-gray;
+  @include box-shadow(0 $btn-shadow 0 0 darken($btn-gray, 10%));
+  @include animation(all .3s ease-in-out);
+
+  //hover effect
+  @include btn-hover(darken($btn-gray, 10%));
+
+
+  &.btn-primary{
+    color:white;
+    font-weight: $fw-regular;
+    background: $primary-color;
+    @include box-shadow(0 $btn-shadow 0 0 $primary-color-darken);
+
+    //hover effect
+    @include btn-hover($primary-color-darken);
+  }
+  &.btn-secondary{
+    color:white;
+    font-weight: $fw-regular;
+    background: $secondary-color;
+    @include box-shadow(0 $btn-shadow 0 0 $secondary-color-darken);
+
+    //hover effect
+    @include btn-hover($secondary-color-darken);
+  }
+  &.btn-invert{
+    color:white;
+    background: $invert-color;
+    @include box-shadow(0 $btn-shadow 0 0 $invert-color-darken);
+
+    //hover effect
+    @include btn-hover($invert-color-darken);
+  }
+  &.btn-white{
+    background: white;
+    @include box-shadow(0 $btn-shadow 0 0 #E5E5E5);
+
+    //hover effect
+    @include btn-hover(#E5E5E5);
+  }
+  
+  //sizes
+  &.btn-mini{
+    font-size: .9rem;
+    padding: .4rem .7rem;
+  }
+  
+  //states
+  &[disabled], &.disabled{
+    opacity: 0.6;
+  }
+  
+  //ttu
+  &.btn-hero{
+    text-transform: uppercase;
+    font-weight: $fw-bold;
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+  }
+}

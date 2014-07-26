@@ -1,0 +1,93 @@
+
+
+
+.form{
+  label{
+    display: block;
+    font-size: rem(14);
+    margin-bottom: rem(5);
+  }
+
+  #{$all-text-inputs},
+  textarea,
+  select{
+    width: 100%;
+    display: block;
+    margin-bottom: rem($spacing);
+    &.valid{
+      border: 1px solid $valid-color;
+    }
+    &.invalid{
+      border: 1px solid $invalid-color;
+    }
+  }
+  fieldset{
+    padding: 1rem rem($spacing) 0;
+    border: 1px solid $border-gray;
+    margin-bottom: rem($spacing);
+  }
+  legend{
+    padding: 0 0.5rem;
+    font-weight: $fw-bold;
+  }
+}
+
+.input-group{
+  position: relative;
+  display: table;
+  border-collapse: separate;
+  margin-bottom: rem($spacing);
+  .group-addon{
+    padding: rem(6) rem(12);
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    color: $text-gray;
+    background-color: #F2F2F2;
+    border: 1px solid $border-gray;
+    @include border-radius();
+    &:first-child{
+      @include border-right-radius(0);
+      border-right-width: 0;
+    }
+    &:last-child{
+      @include border-left-radius(0);
+      border-left-width: 0;
+    }
+  }
+  .group-addon, .group-btn{
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+  }
+
+  #{$all-text-inputs},
+  select{
+    margin-bottom: 0;
+    &:not(:first-child):not(:last-child){
+      @include border-radius(0);
+      border-right-width: 0;
+      border-left-width: 0;
+    }
+    &:first-child{
+      @include border-right-radius(0);
+      border-right-width: 0;
+    }
+    &:last-child{
+      @include border-left-radius(0);
+      border-left-width: 0;
+    }
+  }
+
+  &.valid{
+    * {
+      border: 1px solid $valid-color;
+    }
+  }
+  &.invalid{
+    * {
+      border: 1px solid $invalid-color;
+    }
+  }
+}

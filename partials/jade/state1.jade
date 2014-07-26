@@ -1,0 +1,164 @@
+.box
+    //- HEADERS
+    h1.underlined Headers
+
+    h1 H1. Lorem ipsum dolor sit amet
+    h2 H2. Lorem ipsum dolor sit amet
+    h3 H3. Lorem ipsum dolor sit amet
+    h4 H4. Lorem ipsum dolor sit amet
+    h5 H5. Lorem ipsum dolor sit amet
+    h6 H6. Lorem ipsum dolor sit amet
+
+.box
+    //-PARAGRAPHS
+    h1.underlined Paragraph
+
+    p
+        |Lorem ipsum dolor sit amet #{' '}
+        a texto del assss
+        |#{' '}consectetur adipisicing elit. Eos ut enim placeat ad autem sed hic assumenda impedit. Praesentium porro inventore recusandae et sit dolorum illum hic ipsam omnis saepe laboriosam, accusantium repellat, ea neque iure voluptate fugit accusamus nemo quis magni! Suscipit et odit consequuntur dolorem, illo doloremque fugit veritatis blanditiis cumque quos sapiente consectetur adipisci laudantium accusantium, facilis provident voluptate deserunt voluptatem fugiat, omnis nihil dolor nisi quibusdam. Quas nobis sit corporis adipisci ea ipsa, porro laboriosam nihil qui nostrum hic accusamus vero eos fugit iste labore facilis minima. Excepturi, incidunt id. Odit deleniti hic adipisci consequatur ab.
+
+.box
+    //- BUTTONS
+    h1.underlined Buttons
+
+    h3 Normal size
+    a.btn Simple .btn
+    a.btn.btn-white .btn.btnwhite
+    a.btn.btn-primary .btn.btn-primary
+    a.btn.btn-secondary .btn.btn-secondary
+    a.btn.btn-invert .btn.btn-invert
+
+    .spacer-3
+    h3 Normal size + relevance
+    a.btn.btn-hero Simple .btn
+    a.btn.btn-white.btn-hero .btn.btnwhite
+    a.btn.btn-primary.btn-hero .btn.btn-primary
+    a.btn.btn-secondary.btn-hero .btn.btn-secondary
+    a.btn.btn-invert.btn-hero .btn.btn-invert
+
+    .spacer-3
+    h3 Mini size
+    a.btn.btn-mini .btn.btn-mini
+    a.btn.btn-mini.btn-white .btn.btnwhite
+    a.btn.btn-mini.btn-primary .btn.btn-primary
+    a.btn.btn-mini.btn-secondary .btn.btn-secondary
+    a.btn.btn-mini.btn-invert .btn.btn-invert
+
+    .spacer-3
+    h3 Disabled
+    a.btn(disabled) .btn
+    a.btn.btn-primary(disabled) .btn.btn-primary
+    a.btn.btn-secondary(disabled) .btn.btn-secondary
+    a.btn.btn-invert(disabled) .btn.btn-invert
+
+
+.box
+    h1.underlined Forms
+
+    form.form
+        label(for="name") Nombre
+        input(name="name" id="name" type="text" placeholder="Name here")
+        label(for="email") Email
+        input(name="email" id="email" type="text" placeholder="Email here")
+        .row
+            .col-6
+                label(for="input2") Input2 col-6
+                input(name="input2" id="input2" type="text" placeholder="Input 2")
+            .col-6
+                label(for="input3") Input3 col-6
+                input(name="input3" id="input3" type="text" placeholder="Input 3")
+        .row
+            .col-4
+                label(for="input4") Valid input
+                input.valid(name="input4" id="input4" type="text" placeholder="Valid input")
+            .col-4
+                label(for="input5") Invalid input
+                input.invalid(name="input5" id="input5" type="text" placeholder="Invalid input")
+            .col-4
+                label(for="input6") Input6 col-4
+                input(name="input6" id="input6" type="text" placeholder="Input 6")
+        fieldset
+            legend Fieldset legen
+            label(for="input7") Helo there
+            input(name="input7" id="input7" type="text" placeholder="Hellor there")
+            .row
+                .col-4
+                    label(for="input8") Valid input
+                    input(name="input8" id="input8" type="text" placeholder="Valid input")
+                .col-4
+                    label(for="input9") Invalid input
+                    input(name="input9" id="input9" type="text" placeholder="Invalid input")
+                .col-4
+                    label(for="input10") Input6 col-4
+                    input(name="input10" id="input10" type="text" placeholder="Input 6")
+        label Hello
+        .input-group
+            .group-addon $
+            input(type="text")
+            .group-addon m2
+
+        .input-group.valid
+            .group-addon $
+            input(type="text")
+
+        .input-group.invalid
+            input(type="text")
+            .group-addon sufix
+
+        select
+            option option 1
+            option option 2
+
+        label Select something
+        button.btn button
+
+        label Select something else
+        input.btn(type="button" value="input type:button")
+
+.box
+    h1.underlined Tables
+
+    table.table
+        thead
+            tr
+                th Name
+                th Passport Number
+                th Activity
+                th Actions
+        tbody
+            tr(ng-repeat="person in people")
+                td {{person.name}}
+                td {{person.passport}}
+                td {{person.profession}}
+                td
+                    a.btn.btn-mini(ng-click="alert(person.id)") Delete
+
+.row
+    .col-6.box
+        h2 Information without cross-media
+        p Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+        p Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+        p Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+    .col-6.box
+        h2 Resource sucking relationships
+        p Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+        p Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+        p Completely synergize resource sucking relationships
+
+.row
+    .col-4.box
+        h2 Information without cross-media
+        p Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+        p Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+        p Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.
+    .col-4.box
+        h2 Resource sucking relationships
+        p Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+        p Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+        p Completely synergize resource sucking relationships
+    .col-4.box
+        h2 Dynamically procrastinate
+        p Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.
+        p Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.
+        p Compleotely synergize resource sucking relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service for state of the art customer service.

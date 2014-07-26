@@ -1,0 +1,39 @@
+//Neat override
+//settings/_grid.scss
+$gutter: em(20); // Gutter between each two columns
+$max-width: rem(1100); // Max-width of the outer container
+
+//Settings
+$showBounds: false;
+$spacing: 20;
+
+
+
+//COLORS
+$body-color: #F8F8F8;
+
+$primary-color: #EB7B3D; //orange color
+$primary-color-darken: #ab5538;
+
+$secondary-color: #54B60B;//green color
+$secondary-color-darken: #47910F;
+
+$invert-color: #3E4652;
+$invert-color-darken: #1D242E;
+
+
+$text-gray: #777776;
+$text-gray-dark: #4A4A4A;
+$border-gray: #D4D4D4;
+$btn-gray: #EDEDED;
+
+$link-color: #4A90E2;
+
+$valid-color: #66CB95;
+$invalid-color: #F06560;
+
+//Font
+$ff-main: 'Lato';
+$fw-light:300;
+$fw-regular:400;
+$fw-bold:700;

@@ -1,0 +1,35 @@
+$mobile: new-breakpoint(max-width 320px);
+$mobile-landscape: new-breakpoint(max-width 568px);
+$tablet: new-breakpoint(max-width 768px);
+$tablet-landscape: new-breakpoint(max-width 1024px);
+
+/*
+* Most basic grid system
+*/
+.row {
+  @include outer-container;
+
+  @for $i from 1 through $grid-columns {
+    .col-#{$i} {
+      @include span-columns($i);
+    }
+  }
+}
+@include media($mobile){
+  .row{
+    @for $i from 1 through $grid-columns {
+      .col-#{$i} {
+        @include span-columns($grid-columns);
+      }
+    }
+  }
+}
+
+/*
+* White box
+*/
+.box{
+  background: #fff;
+  padding: rem($spacing);
+  margin-bottom: rem($spacing);
+}

@@ -1,0 +1,26 @@
+
+
+//angular class to prevent FOUC
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+//uppercase
+.ttu{
+  text-transform: uppercase;
+}
+
+//helpfull spacers
+@for $i from 1 through 20 {
+  .spacer-#{$i} {
+    width: 100%;
+    clear: both;
+    height: 10px*$i;
+  }
+}
+
+
+//bounds for debugging
+@if $showBounds{
+  * { background-color: rgba(255,0,0,.1); }
+}
