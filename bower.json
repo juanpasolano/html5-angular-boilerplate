@@ -16,6 +16,7 @@
   ],
   "dependencies": {
     "angular": "~1.2.20",
-    "angular-ui-router": "~0.2.10"
+    "angular-ui-router": "~0.2.10",
+    "jquery": "https://github.com/components/jquery.git#1.11"
   }
 }

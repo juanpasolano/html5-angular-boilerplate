@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/css/main.css">
   </head>
-  <body ng-controller="MainCtrl"><!--[if lt IE 8]>
+  <body ng-controller="MainCtrl" ng-cloak><!--[if lt IE 8]>
     <p class="browsehappy">
       You are using an <strong>outdated</strong> browser.
       Please <a href="http://browsehappy.com/">upgrade your browser</a>
@@ -27,6 +27,7 @@
     <footer>
       <div class="spacer-5">Footer</div>
     </footer>
+    <script src="components/jquery/jquery.min.js"></script>
     <script src="components/angular/angular.min.js"></script>
     <script src="components/angular-ui-router/release/angular-ui-router.min.js"></script>
     <script src="js/dist/built.min.js"></script>

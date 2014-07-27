@@ -8,7 +8,7 @@ html(ng-app="ubicala")
         meta(name='viewport', content='width=device-width, initial-scale=1')
         link(rel='stylesheet', href='stylesheets/css/main.css')
         //-script(src='javascripts/vendor/modernizr-2.7.1.min.js')
-    body(ng-controller="MainCtrl")
+    body(ng-controller="MainCtrl" ng-cloak)
         <!--[if lt IE 8]>
         p.browsehappy
             | You are using an <strong>outdated</strong> browser.
@@ -33,9 +33,10 @@ html(ng-app="ubicala")
 
         //- script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
         //- script window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')
-        script(src='components/angular/angular.min.js')
-        script(src='components/angular-ui-router/release/angular-ui-router.min.js')
-        script(src='js/dist/built.min.js')
+        script(src="components/jquery/jquery.min.js")
+        script(src="components/angular/angular.min.js")
+        script(src="components/angular-ui-router/release/angular-ui-router.min.js")
+        script(src="js/dist/built.min.js")
 
         //- Google Analytics: change UA-XXXXX-X to be your site's ID.
 
