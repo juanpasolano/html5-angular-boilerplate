@@ -17,6 +17,9 @@
   "dependencies": {
     "angular": "~1.2.20",
     "angular-ui-router": "~0.2.10",
-    "jquery": "https://github.com/components/jquery.git#1.11"
+    "jquery": "https://github.com/components/jquery.git#1.11",
+    "angular-strap": "~2.0.4",
+    "angular-animate": "~1.2.21",
+    "bootstrap-additions": "~0.2.3"
   }
 }

@@ -1,11 +1,11 @@
 /**
- * ubicala-front - ubicala
+ * html5-angular-boilerplate - Personal angular boilerplate to get started on new projects
  * @version v0.0.0
- * @link http://www.ubicala.co
+ * @link https://github.com/juanpasolano/html5-angular-boilerplate
  * @license BSD-2-Clause
  */
 
-var app = angular.module('ubicala', ['ui.router']);
+var app = angular.module('ubicala', ['ui.router', 'mgcrea.ngStrap', 'ngAnimate', 'ngSanitize']);
 app.config( ['$stateProvider', '$urlRouterProvider',
     function($stateProvider, $urlRouterProvider) {
         //
@@ -28,7 +28,8 @@ app.config( ['$stateProvider', '$urlRouterProvider',
             })
             .state('state2', {
                 url: "/state2",
-                templateUrl: "partials/html/state2.html"
+                templateUrl: "partials/html/state2.html",
+                controller: 'State2Controller'
             })
             .state('state2.list', {
                 url: "/list",
@@ -67,5 +68,21 @@ app.controller('State1Controller', ['$scope',
         $scope.alert = function(id){
             alert(id);
         }
+    }
+]);
+
+
+app.controller('State2Controller', ['$scope',
+    function($scope) {
+        $scope.modal = {
+            "title": "Title",
+            "content": "Hello Modal<br />This is a multiline message!"
+        };
+
+        $scope.alert = {
+            "title": "Holy guacamole!",
+            "content": "Best check yo self, you're not looking too good.",
+            "type": "info"
+        };
     }
 ]);

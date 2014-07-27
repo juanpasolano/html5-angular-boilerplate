@@ -28,3 +28,19 @@ app.controller('State1Controller', ['$scope',
         }
     }
 ]);
+
+
+app.controller('State2Controller', ['$scope',
+    function($scope) {
+        $scope.modal = {
+            "title": "Title",
+            "content": "Hello Modal<br />This is a multiline message!"
+        };
+
+        $scope.alert = {
+            "title": "Holy guacamole!",
+            "content": "Best check yo self, you're not looking too good.",
+            "type": "info"
+        };
+    }
+]);

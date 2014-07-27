@@ -20,7 +20,8 @@ app.config( ['$stateProvider', '$urlRouterProvider',
             })
             .state('state2', {
                 url: "/state2",
-                templateUrl: "partials/html/state2.html"
+                templateUrl: "partials/html/state2.html",
+                controller: 'State2Controller'
             })
             .state('state2.list', {
                 url: "/list",
