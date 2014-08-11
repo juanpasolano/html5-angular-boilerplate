@@ -3,10 +3,12 @@ $btn-shadow-hover:3px;
 
 @mixin btn-hover($color){
   &:hover{
+    cursor: pointer;
     @include box-shadow(0 $btn-shadow-hover 0 0 $color);
     top: ($btn-shadow - 1) * -1;
   }
   &:active{
+    cursor: pointer;
     @include box-shadow(0 0 0 0 $color);
     top: $btn-shadow;
   }
@@ -72,7 +74,15 @@ $btn-shadow-hover:3px;
     //hover effect
     @include btn-hover(#E5E5E5);
   }
-  
+  &.btn-link{
+    background: white;
+    color:$link-color;
+    @include box-shadow(0 $btn-shadow 0 0 #fff);
+    &:hover{
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
   //sizes
   &.btn-mini{
     font-size: .9rem;
