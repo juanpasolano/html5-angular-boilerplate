@@ -48,6 +48,15 @@ $btn-shadow-hover:3px;
     //hover effect
     @include btn-hover($secondary-color-darken);
   }
+  &.btn-danger{
+    color:white;
+    font-weight: $fw-regular;
+    background: $danger-color;
+    @include box-shadow(0 $btn-shadow 0 0 $danger-color-darken);
+
+    //hover effect
+    @include btn-hover($danger-color-darken);
+  }
   &.btn-invert{
     color:white;
     background: $invert-color;

@@ -1156,43 +1156,63 @@ select {
   .btn.btn-primary {
     color: white;
     font-weight: 400;
-    background: #eb7b3d;
-    -webkit-box-shadow: 0 2px 0 0 #ab5538;
-    -moz-box-shadow: 0 2px 0 0 #ab5538;
-    box-shadow: 0 2px 0 0 #ab5538; }
+    background: #4fc388;
+    -webkit-box-shadow: 0 2px 0 0 #408c5f;
+    -moz-box-shadow: 0 2px 0 0 #408c5f;
+    box-shadow: 0 2px 0 0 #408c5f; }
     /* line 5, ../modules/_buttons.scss */
     .btn.btn-primary:hover {
-      -webkit-box-shadow: 0 3px 0 0 #ab5538;
-      -moz-box-shadow: 0 3px 0 0 #ab5538;
-      box-shadow: 0 3px 0 0 #ab5538;
+      -webkit-box-shadow: 0 3px 0 0 #408c5f;
+      -moz-box-shadow: 0 3px 0 0 #408c5f;
+      box-shadow: 0 3px 0 0 #408c5f;
       top: -1px; }
     /* line 9, ../modules/_buttons.scss */
     .btn.btn-primary:active {
-      -webkit-box-shadow: 0 0 0 0 #ab5538;
-      -moz-box-shadow: 0 0 0 0 #ab5538;
-      box-shadow: 0 0 0 0 #ab5538;
+      -webkit-box-shadow: 0 0 0 0 #408c5f;
+      -moz-box-shadow: 0 0 0 0 #408c5f;
+      box-shadow: 0 0 0 0 #408c5f;
       top: 2px; }
   /* line 42, ../modules/_buttons.scss */
   .btn.btn-secondary {
     color: white;
     font-weight: 400;
-    background: #54b60b;
-    -webkit-box-shadow: 0 2px 0 0 #47910f;
-    -moz-box-shadow: 0 2px 0 0 #47910f;
-    box-shadow: 0 2px 0 0 #47910f; }
+    background: #43aeeb;
+    -webkit-box-shadow: 0 2px 0 0 #2f77a2;
+    -moz-box-shadow: 0 2px 0 0 #2f77a2;
+    box-shadow: 0 2px 0 0 #2f77a2; }
     /* line 5, ../modules/_buttons.scss */
     .btn.btn-secondary:hover {
-      -webkit-box-shadow: 0 3px 0 0 #47910f;
-      -moz-box-shadow: 0 3px 0 0 #47910f;
-      box-shadow: 0 3px 0 0 #47910f;
+      -webkit-box-shadow: 0 3px 0 0 #2f77a2;
+      -moz-box-shadow: 0 3px 0 0 #2f77a2;
+      box-shadow: 0 3px 0 0 #2f77a2;
       top: -1px; }
     /* line 9, ../modules/_buttons.scss */
     .btn.btn-secondary:active {
-      -webkit-box-shadow: 0 0 0 0 #47910f;
-      -moz-box-shadow: 0 0 0 0 #47910f;
-      box-shadow: 0 0 0 0 #47910f;
+      -webkit-box-shadow: 0 0 0 0 #2f77a2;
+      -moz-box-shadow: 0 0 0 0 #2f77a2;
+      box-shadow: 0 0 0 0 #2f77a2;
       top: 2px; }
   /* line 51, ../modules/_buttons.scss */
+  .btn.btn-danger {
+    color: white;
+    font-weight: 400;
+    background: #f06560;
+    -webkit-box-shadow: 0 2px 0 0 #984341;
+    -moz-box-shadow: 0 2px 0 0 #984341;
+    box-shadow: 0 2px 0 0 #984341; }
+    /* line 5, ../modules/_buttons.scss */
+    .btn.btn-danger:hover {
+      -webkit-box-shadow: 0 3px 0 0 #984341;
+      -moz-box-shadow: 0 3px 0 0 #984341;
+      box-shadow: 0 3px 0 0 #984341;
+      top: -1px; }
+    /* line 9, ../modules/_buttons.scss */
+    .btn.btn-danger:active {
+      -webkit-box-shadow: 0 0 0 0 #984341;
+      -moz-box-shadow: 0 0 0 0 #984341;
+      box-shadow: 0 0 0 0 #984341;
+      top: 2px; }
+  /* line 60, ../modules/_buttons.scss */
   .btn.btn-invert {
     color: white;
     background: #3e4652;
@@ -1211,7 +1231,7 @@ select {
       -moz-box-shadow: 0 0 0 0 #1d242e;
       box-shadow: 0 0 0 0 #1d242e;
       top: 2px; }
-  /* line 59, ../modules/_buttons.scss */
+  /* line 68, ../modules/_buttons.scss */
   .btn.btn-white {
     background: white;
     -webkit-box-shadow: 0 2px 0 0 #e5e5e5;
@@ -1229,14 +1249,14 @@ select {
       -moz-box-shadow: 0 0 0 0 #e5e5e5;
       box-shadow: 0 0 0 0 #e5e5e5;
       top: 2px; }
-  /* line 68, ../modules/_buttons.scss */
+  /* line 77, ../modules/_buttons.scss */
   .btn.btn-mini {
     font-size: .9rem;
     padding: .4rem .7rem; }
-  /* line 74, ../modules/_buttons.scss */
+  /* line 83, ../modules/_buttons.scss */
   .btn[disabled], .btn.disabled {
     opacity: 0.6; }
-  /* line 79, ../modules/_buttons.scss */
+  /* line 88, ../modules/_buttons.scss */
   .btn.btn-hero {
     text-transform: uppercase;
     font-weight: 700;
