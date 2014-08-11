@@ -5,8 +5,15 @@ app.controller('MainCtrl', ['$scope',
         $scope.welcome = 'Bienvenido a Ubicala';
     }
 ]);
-app.controller('HomeCtrl', ['$scope',
-    function($scope) {
+app.controller('HomeCtrl', ['$scope', 'hotkeys',
+    function($scope, hotkeys) {
+        hotkeys.add({
+            combo: 's',
+            description: 'This one goes to 11',
+            callback: function() {
+                console.log('This should start the search process');
+            }
+        });
     }
 ]);
 app.controller('StyleguideCtrl', ['$scope',

@@ -10,13 +10,51 @@
   text-transform: uppercase;
 }
 
-//helpfull spacers
+//helpfull spacers from 10 to 200 pixels
+//Creates .spacer-1 to .spacer-20 classes
 @for $i from 1 through 20 {
   .spacer-#{$i} {
     width: 100%;
     clear: both;
     height: 10px*$i;
   }
+}
+
+
+//Headerlike styles if you need styles like header but not compromise SEO
+//exports .h1, .h2, .h3, .h4... etc
+$headers-font-size: 2.5rem 2rem 1.5rem 1.17rem 1rem .83rem;
+@mixin addHeaderlikeStyles($i) {
+  font-size: nth($headers-font-size, $i);
+}
+@for $i from 1 through 6 {
+  .h#{$i} {
+    @include addHeaderlikeStyles($i);
+    display: block;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    margin: 0 0 1rem;
+    color: $text-gray-dark;
+    &.underlined{
+      border-bottom: 1px solid $border-gray;
+      font-weight: $fw-light;
+    }
+  }
+}
+
+
+//Helpful classes
+.align-center{
+  text-align: center;
+}
+.align-right{
+  text-align: right;
+}
+.align-left{
+  text-align: right;
+}
+.uppercase{
+  text-transform: uppercase;
 }
 
 

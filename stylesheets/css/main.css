@@ -4,7 +4,7 @@
  * @link https://github.com/juanpasolano/html5-angular-boilerplate
  * @license BSD-2-Clause
  */
-/* line 2, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_grid.scss */
+/* line 2, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -906,125 +906,219 @@ select {
 .ttu {
   text-transform: uppercase; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-1 {
   width: 100%;
   clear: both;
   height: 10px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-2 {
   width: 100%;
   clear: both;
   height: 20px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-3 {
   width: 100%;
   clear: both;
   height: 30px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-4 {
   width: 100%;
   clear: both;
   height: 40px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-5 {
   width: 100%;
   clear: both;
   height: 50px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-6 {
   width: 100%;
   clear: both;
   height: 60px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-7 {
   width: 100%;
   clear: both;
   height: 70px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-8 {
   width: 100%;
   clear: both;
   height: 80px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-9 {
   width: 100%;
   clear: both;
   height: 90px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-10 {
   width: 100%;
   clear: both;
   height: 100px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-11 {
   width: 100%;
   clear: both;
   height: 110px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-12 {
   width: 100%;
   clear: both;
   height: 120px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-13 {
   width: 100%;
   clear: both;
   height: 130px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-14 {
   width: 100%;
   clear: both;
   height: 140px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-15 {
   width: 100%;
   clear: both;
   height: 150px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-16 {
   width: 100%;
   clear: both;
   height: 160px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-17 {
   width: 100%;
   clear: both;
   height: 170px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-18 {
   width: 100%;
   clear: both;
   height: 180px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-19 {
   width: 100%;
   clear: both;
   height: 190px; }
 
-/* line 15, ../_helpers.scss */
+/* line 16, ../_helpers.scss */
 .spacer-20 {
   width: 100%;
   clear: both;
   height: 200px; }
+
+/* line 31, ../_helpers.scss */
+.h1 {
+  font-size: 2.5rem;
+  display: block;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 1rem;
+  color: #4a4a4a; }
+  /* line 38, ../_helpers.scss */
+  .h1.underlined {
+    border-bottom: 1px solid #d4d4d4;
+    font-weight: 300; }
+
+/* line 31, ../_helpers.scss */
+.h2 {
+  font-size: 2rem;
+  display: block;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 1rem;
+  color: #4a4a4a; }
+  /* line 38, ../_helpers.scss */
+  .h2.underlined {
+    border-bottom: 1px solid #d4d4d4;
+    font-weight: 300; }
+
+/* line 31, ../_helpers.scss */
+.h3 {
+  font-size: 1.5rem;
+  display: block;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 1rem;
+  color: #4a4a4a; }
+  /* line 38, ../_helpers.scss */
+  .h3.underlined {
+    border-bottom: 1px solid #d4d4d4;
+    font-weight: 300; }
+
+/* line 31, ../_helpers.scss */
+.h4 {
+  font-size: 1.17rem;
+  display: block;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 1rem;
+  color: #4a4a4a; }
+  /* line 38, ../_helpers.scss */
+  .h4.underlined {
+    border-bottom: 1px solid #d4d4d4;
+    font-weight: 300; }
+
+/* line 31, ../_helpers.scss */
+.h5 {
+  font-size: 1rem;
+  display: block;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 1rem;
+  color: #4a4a4a; }
+  /* line 38, ../_helpers.scss */
+  .h5.underlined {
+    border-bottom: 1px solid #d4d4d4;
+    font-weight: 300; }
+
+/* line 31, ../_helpers.scss */
+.h6 {
+  font-size: 0.83rem;
+  display: block;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 0 1rem;
+  color: #4a4a4a; }
+  /* line 38, ../_helpers.scss */
+  .h6.underlined {
+    border-bottom: 1px solid #d4d4d4;
+    font-weight: 300; }
+
+/* line 47, ../_helpers.scss */
+.align-center {
+  text-align: center; }
+
+/* line 50, ../_helpers.scss */
+.align-right {
+  text-align: right; }
+
+/* line 53, ../_helpers.scss */
+.align-left {
+  text-align: right; }
+
+/* line 56, ../_helpers.scss */
+.uppercase {
+  text-transform: uppercase; }
 
 /* line 15, ../modules/_buttons.scss */
 .btn {
@@ -1156,7 +1250,7 @@ select {
   max-width: 68.75rem;
   margin-left: auto;
   margin-right: auto; }
-  /* line 15, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-bourbon/assets/stylesheets/addons/_clearfix.scss */
+  /* line 15, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-bourbon/assets/stylesheets/addons/_clearfix.scss */
   .row:after {
     content: "";
     display: table;
@@ -1167,7 +1261,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 6.17215%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-1:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1176,7 +1270,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 14.70196%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-2:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1185,7 +1279,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-3:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1194,7 +1288,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 31.76157%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-4:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1203,7 +1297,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 40.29137%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-5:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1212,7 +1306,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 48.82117%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-6:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1221,7 +1315,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 57.35098%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-7:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1230,7 +1324,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 65.88078%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-8:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1239,7 +1333,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-9:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1248,7 +1342,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 82.94039%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-10:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1257,7 +1351,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 91.4702%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-11:last-child {
       margin-right: 0; }
   /* line 13, ../modules/_layouts.scss */
@@ -1266,7 +1360,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-12:last-child {
       margin-right: 0; }
 
@@ -1277,7 +1371,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-1:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1286,7 +1380,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-2:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1295,7 +1389,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-3:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1304,7 +1398,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-4:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1313,7 +1407,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-5:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1322,7 +1416,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-6:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1331,7 +1425,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-7:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1340,7 +1434,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-8:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1349,7 +1443,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-9:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1358,7 +1452,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-10:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1367,7 +1461,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-11:last-child {
       margin-right: 0; }
   /* line 21, ../modules/_layouts.scss */
@@ -1376,7 +1470,7 @@ select {
     display: block;
     margin-right: 2.35765%;
     width: 100%; }
-    /* line 38, ../../../../../../../Users/juansolano/Desktop/ubicala-starter/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
+    /* line 38, ../../../../../../../Applications/XAMPP/xamppfiles/htdocs/vetapp/app/front/node_modules/node-neat/assets/stylesheets/grid/_span-columns.scss */
     .row .col-12:last-child {
       margin-right: 0; } }
 /*
