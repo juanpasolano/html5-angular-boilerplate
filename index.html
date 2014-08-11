@@ -14,7 +14,7 @@
       Please <a href="http://browsehappy.com/">upgrade your browser</a>
       to improve your experience.
     </p><![endif]-->
-    <header>Header</header>
+    <header ng-include="'partials/html/header.html'"></header>
     <div class="row">
       <div class="col-3">{{welcome}}
         <ul>
@@ -24,9 +24,7 @@
       </div>
       <div ui-view class="col-9"></div>
     </div>
-    <footer>
-      <div class="spacer-5">Footer</div>
-    </footer>
+    <footer ng-include="'partials/html/footer.html'"></footer>
     <script src="components/jquery/jquery.min.js"></script>
     <script src="components/angular/angular.min.js"></script>
     <script src="components/angular-ui-router/release/angular-ui-router.min.js"></script>

@@ -16,8 +16,8 @@ html(ng-app="ubicala")
             | to improve your experience.
         <![endif]-->
 
-        //- Main ng-view
-        header Header
+        header(ng-include="'partials/html/header.html'")
+
         .row
             .col-3 {{welcome}}
                 ul
@@ -25,11 +25,10 @@ html(ng-app="ubicala")
                         a(ui-sref="home" href="javascript:;") Home
                     li
                         a(ui-sref="styleguide" href="javascript:;") Styleguide
+            //- Main ng-view
             div.col-9(ui-view)
 
-
-        footer
-            .spacer-5 Footer
+        footer(ng-include="'partials/html/footer.html'")
 
         //- script(src='//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js')
         //- script window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')

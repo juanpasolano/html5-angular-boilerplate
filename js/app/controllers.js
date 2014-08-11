@@ -2,7 +2,7 @@
 
 app.controller('MainCtrl', ['$scope',
     function($scope) {
-        $scope.welcome = 'Bienvenido a Ubicala';
+        $scope.welcome = 'Bienvenido a mi app';
     }
 ]);
 app.controller('HomeCtrl', ['$scope', 'hotkeys',
