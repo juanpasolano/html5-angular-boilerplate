@@ -5,8 +5,11 @@ app.controller('MainCtrl', ['$scope',
         $scope.welcome = 'Bienvenido a Ubicala';
     }
 ]);
-
-app.controller('State1Controller', ['$scope',
+app.controller('HomeCtrl', ['$scope',
+    function($scope) {
+    }
+]);
+app.controller('StyleguideCtrl', ['$scope',
     function($scope) {
         $scope.people = [
             {

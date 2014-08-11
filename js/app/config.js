@@ -2,32 +2,19 @@ app.config( ['$stateProvider', '$urlRouterProvider',
     function($stateProvider, $urlRouterProvider) {
         //
         // For any unmatched url, redirect to /state1
-        $urlRouterProvider.otherwise("/state1");
+        $urlRouterProvider.otherwise("home");
         //
         // Now set up the states
         $stateProvider
-            .state('state1', {
-                url: "/state1",
-                templateUrl: "partials/html/state1.html",
-                controller: 'State1Controller'
+            .state('home', {
+                url: "/",
+                templateUrl: "partials/html/home.html",
+                controller: 'HomeCtrl'
             })
-            .state('state1.list', {
-                url: "/list",
-                templateUrl: "partials/html/state1.list.html",
-                controller: function($scope) {
-                    $scope.items = ["A", "List", "Of", "Items"];
-                }
-            })
-            .state('state2', {
-                url: "/state2",
-                templateUrl: "partials/html/state2.html"
-            })
-            .state('state2.list', {
-                url: "/list",
-                templateUrl: "partials/html/state2.list.html",
-                controller: function($scope) {
-                    $scope.things = ["A", "Set", "Of", "Things"];
-                }
+            .state('styleguide', {
+                url: "/styleguide",
+                templateUrl: "partials/html/styleguide.html",
+                controller:"StyleguideCtrl"
             })
     }
 ]);
